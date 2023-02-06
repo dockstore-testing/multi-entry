@@ -2,7 +2,7 @@ version: 1.2
 
 workflows:
 
-   -  name: workflowA
+   -  name: foo
       publish: true
       subclass: CWL
       primaryDescriptorPath: /workflow.cwl
@@ -34,7 +34,7 @@ tools:
 
 notebooks:
 
-   -  name: notebookA
+   -  name: foo
       publish: true
       path: /notebook.ipynb
       
