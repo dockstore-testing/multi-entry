@@ -31,3 +31,13 @@ tools:
       primaryDescriptorPath: /tool.cwl
       testParameterFiles:
         - /empty.json
+
+notebooks:
+
+   -  name: notebookA
+      publish: true
+      path: /notebook.ipynb
+      
+   -  name: notebookB
+      publish: true
+      path: /notebook.ipynb
